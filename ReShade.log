@@ -1,0 +1,98 @@
+04:08:12:409 [02688] | INFO  | Initializing crosire's ReShade version '5.2.2.1533' (64-bit) loaded from "C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\d3d9.dll" into "C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\CampMassacre.exe" ...
+04:08:12:425 [02688] | INFO  | Registering hooks for "user32.dll" ...
+04:08:12:441 [02688] | INFO  | > Libraries loaded.
+04:08:12:472 [02688] | INFO  | > Found 14 match(es). Installing ...
+04:08:12:503 [02688] | INFO  | Registering hooks for "ws2_32.dll" ...
+04:08:12:519 [02688] | INFO  | > Libraries loaded.
+04:08:12:550 [02688] | INFO  | > Found 8 match(es). Installing ...
+04:08:12:581 [02688] | INFO  | Registering hooks for "C:\WINDOWS\system32\d2d1.dll" ...
+04:08:12:581 [02688] | INFO  | > Delayed.
+04:08:12:581 [02688] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d9.dll" ...
+04:08:12:581 [02688] | INFO  | > Delayed until first call to an exported function.
+04:08:12:581 [02688] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d10.dll" ...
+04:08:12:581 [02688] | INFO  | > Delayed.
+04:08:12:581 [02688] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d10_1.dll" ...
+04:08:12:597 [02688] | INFO  | > Delayed.
+04:08:12:597 [02688] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d11.dll" ...
+04:08:12:613 [02688] | INFO  | > Delayed.
+04:08:12:644 [02688] | INFO  | Registering hooks for "C:\WINDOWS\system32\d3d12.dll" ...
+04:08:12:644 [02688] | INFO  | > Delayed.
+04:08:12:644 [02688] | INFO  | Registering hooks for "C:\WINDOWS\system32\dxgi.dll" ...
+04:08:12:644 [02688] | INFO  | > Delayed.
+04:08:12:644 [02688] | INFO  | Registering hooks for "vrclient_x64.dll" ...
+04:08:12:644 [02688] | INFO  | > Delayed.
+04:08:12:644 [02688] | INFO  | Registering hooks for "C:\WINDOWS\system32\dinput.dll" ...
+04:08:12:659 [02688] | INFO  | > Delayed.
+04:08:12:659 [02688] | INFO  | Initialized.
+04:08:12:659 [02688] | INFO  | Redirecting Direct3DCreate9(SDKVersion = 32) ...
+04:08:12:675 [02688] | WARN  | Ignoring LoadLibrary("C:\WINDOWS\SYSTEM32\dwmapi.dll") call to avoid possible deadlock.
+04:08:12:691 [02688] | WARN  | Ignoring LoadLibrary("C:\WINDOWS\SYSTEM32\Wldp.dll") call to avoid possible deadlock.
+04:08:12:691 [02688] | WARN  | Ignoring LoadLibrary("C:\WINDOWS\SYSTEM32\windows.storage.dll") call to avoid possible deadlock.
+04:08:12:691 [02688] | INFO  | Installing export hooks for "C:\WINDOWS\system32\d3d9.dll" ...
+04:08:12:691 [02688] | INFO  | > Found 9 match(es). Installing ...
+04:08:12:784 [02688] | INFO  | Redirecting IDirect3D9::CreateDevice(this = 000001A0F4EAD300, Adapter = 0, DeviceType = 1, hFocusWindow = 00000000001C0290, BehaviorFlags = 0x42, pPresentationParameters = 000001A0F4E1FFB8, ppReturnedDeviceInterface = 000001A0F4E20380) ...
+04:08:12:784 [02688] | INFO  | Dumping presentation parameters:
+04:08:12:784 [02688] | INFO  |   +-----------------------------------------+-----------------------------------------+
+04:08:12:784 [02688] | INFO  |   | Parameter                               | Value                                   |
+04:08:12:784 [02688] | INFO  |   +-----------------------------------------+-----------------------------------------+
+04:08:12:784 [02688] | INFO  |   | BackBufferWidth                         | 0                                       |
+04:08:12:784 [02688] | INFO  |   | BackBufferHeight                        | 0                                       |
+04:08:12:784 [02688] | INFO  |   | BackBufferFormat                        | D3DFMT_X8R8G8B8                         |
+04:08:12:784 [02688] | INFO  |   | BackBufferCount                         | 1                                       |
+04:08:12:784 [02688] | INFO  |   | MultiSampleType                         | 0                                       |
+04:08:12:784 [02688] | INFO  |   | MultiSampleQuality                      | 0                                       |
+04:08:12:784 [02688] | INFO  |   | SwapEffect                              | 3                                       |
+04:08:12:784 [02688] | INFO  |   | DeviceWindow                            | 0000000000000000                        |
+04:08:12:784 [02688] | INFO  |   | Windowed                                | TRUE                                    |
+04:08:12:784 [02688] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
+04:08:12:784 [02688] | INFO  |   | AutoDepthStencilFormat                  | 77                                      |
+04:08:12:784 [02688] | INFO  |   | Flags                                   | 0                                       |
+04:08:12:784 [02688] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
+04:08:12:784 [02688] | INFO  |   | PresentationInterval                    | 0x80000000                              |
+04:08:12:800 [02688] | INFO  |   +-----------------------------------------+-----------------------------------------+
+04:08:13:550 [02688] | INFO  | Running on Radeon RX550/550 Series Driver 310.15
+04:08:13:816 [02688] | INFO  | Redirecting RegisterClassA(lpWndClass = 0000000F080FF1B0 { "irrKlangWindow", style = 0 }) ...
+04:08:14:284 [04840] | INFO  | Successfully compiled "C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\ChromaticAberration.fx".
+04:08:14:394 [04840] | INFO  | Successfully compiled "C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\CRT-Frutbunn.fx".
+04:08:15:144 [05372] | WARN  | Successfully compiled "C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\NTSC_RetroArch.fx" with warnings:
+C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\NTSC_RetroArch.fx(144,16-39): warning X3553: can't use gradient instructions in loops with break, forcing loop to unroll
+C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\NTSC_RetroArch.fx(378,16-34): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\NTSC_RetroArch.fx(379,16-34): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\NTSC_RetroArch.fx(380,16-34): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\NTSC_RetroArch.fx(381,16-34): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\NTSC_RetroArch.fx(382,16-34): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+04:08:19:144 [02688] | INFO  | Redirecting IDirect3DDevice9::Reset(this = 000001A0F73EE920, pPresentationParameters = 000001A0F4E1FFB8) ...
+04:08:19:144 [02688] | INFO  | Dumping presentation parameters:
+04:08:19:144 [02688] | INFO  |   +-----------------------------------------+-----------------------------------------+
+04:08:19:144 [02688] | INFO  |   | Parameter                               | Value                                   |
+04:08:19:144 [02688] | INFO  |   +-----------------------------------------+-----------------------------------------+
+04:08:19:144 [02688] | INFO  |   | BackBufferWidth                         | 1366                                    |
+04:08:19:144 [02688] | INFO  |   | BackBufferHeight                        | 768                                     |
+04:08:19:144 [02688] | INFO  |   | BackBufferFormat                        | D3DFMT_X8R8G8B8                         |
+04:08:19:144 [02688] | INFO  |   | BackBufferCount                         | 1                                       |
+04:08:19:144 [02688] | INFO  |   | MultiSampleType                         | 0                                       |
+04:08:19:144 [02688] | INFO  |   | MultiSampleQuality                      | 0                                       |
+04:08:19:144 [02688] | INFO  |   | SwapEffect                              | 3                                       |
+04:08:19:144 [02688] | INFO  |   | DeviceWindow                            | 0000000000000000                        |
+04:08:19:144 [02688] | INFO  |   | Windowed                                | TRUE                                    |
+04:08:19:144 [02688] | INFO  |   | EnableAutoDepthStencil                  | TRUE                                    |
+04:08:19:144 [02688] | INFO  |   | AutoDepthStencilFormat                  | 77                                      |
+04:08:19:144 [02688] | INFO  |   | Flags                                   | 0                                       |
+04:08:19:144 [02688] | INFO  |   | FullScreen_RefreshRateInHz              | 0                                       |
+04:08:19:144 [02688] | INFO  |   | PresentationInterval                    | 0x80000000                              |
+04:08:19:144 [02688] | INFO  |   +-----------------------------------------+-----------------------------------------+
+04:08:19:206 [03564] | INFO  | Successfully compiled "C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\ChromaticAberration.fx".
+04:08:19:316 [03564] | INFO  | Successfully compiled "C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\CRT-Frutbunn.fx".
+04:08:20:050 [01644] | WARN  | Successfully compiled "C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\NTSC_RetroArch.fx" with warnings:
+C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\NTSC_RetroArch.fx(144,16-39): warning X3553: can't use gradient instructions in loops with break, forcing loop to unroll
+C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\NTSC_RetroArch.fx(378,16-34): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\NTSC_RetroArch.fx(379,16-34): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\NTSC_RetroArch.fx(380,16-34): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\NTSC_RetroArch.fx(381,16-34): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\NoxusModels\Projects\The Slasher\TS Camp Massacre (Old TV Shader)\shaders\Shaders\RSRetroArch\NTSC_RetroArch.fx(382,16-34): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+04:08:20:269 [02688] | INFO  | Loading image files for textures ...
+04:08:31:574 [02688] | INFO  | Exiting ...
+04:08:31:574 [02688] | INFO  | Uninstalling 32 hook(s) ...
+04:08:32:621 [02688] | INFO  | Finished exiting.
